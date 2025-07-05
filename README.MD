@@ -1,65 +1,67 @@
-# CSE 3100: Web Application Development with DevOps
+# Rick & Morty Explorer – Assignment 1
 
-_Ahsanullah University of Science and Technology_  
-**Fall 2024**
+In this project, you'll build a beautiful and interactive single-page application that allows users to explore, filter, and view details about characters from the Rick and Morty universe using the public Rick and Morty API.
+
+You'll apply React and JavaScript skills, routing, API fetching, conditional rendering, and basic UX design.
+
+---
+## Wakatime Badge
+
+[![wakatime](https://wakatime.com/badge/user/fcea2923-047d-4b59-8b66-6e342e0673aa/project/3de7982a-3c6a-4cae-b57c-9804107fe6b5.svg)](https://wakatime.com/badge/user/fcea2923-047d-4b59-8b66-6e342e0673aa/project/3de7982a-3c6a-4cae-b57c-9804107fe6b5)
+---
+## Implemented Features
+
+- Character Details Page
+- Character Search
+- Character Filtering
+- Pagination
+- Contact Us Page
+- About Us Page
+
+## Improvements
+
+- An updated modern look
+- Responsive design
+
+## AI Tools & Usage
+- chatGPT (for generating reference code for basic outline of a page/component)
+- Online forums were used as resources for bug fixes and debugging
+
+## Requirements
+
+Make sure you have the following installed:
+
+- [Node.js (preferably v22.16.5)](https://nodejs.org/en/download/)
+- [Code editor – VSCode](https://code.visualstudio.com/)
+- [NVM (optional)](https://github.com/coreybutler/nvm-windows)
+- [WakaTime extension for VSCode (to track total time invested in this project)](https://wakatime.com/plugins/vscode)
 
 ---
 
-## Course Overview
+## Setup Instructions
 
-This course introduces modern web application development with a strong emphasis on DevOps principles and practices. Students will learn both front-end and back-end development, version control, containerization, and continuous integration/development.
+### Clone the Repository
 
-**By the end of this course, you will be able to:**
-
-- Design visually appealing, responsive, and user-friendly websites.
-- Develop dynamic, data-driven web applications using the **Laravel framework**.
-- Implement RESTful APIs and manage application logic effectively.
-- Collaborate using Git and GitHub, applying advanced branching and merging techniques.
-- Set up containerized environments using Docker.
-- Understand and implement CI/CD pipelines and their role in modern development.
-- Automate development workflows using DevOps best practices.
-- Deliver a full-stack web application deployed in a containerized environment.
-
----
-
-## Repository Structure
-
-This repository is organized into multiple branches. Each branch corresponds to a lecture or assignment.
-
-**To switch branches:**
+Fork the base repository. Then, clone the forked repository to your local machine and switch to the branch assignment-1-20220204023
 
 ```bash
-git checkout <branch-name>
+git clone git@github.com:RafyBhuiyan/cse-3100.git
+cd cse-3100
+git checkout assignment-1-20220204023
 ```
 
-Replace `<branch-name>` with the appropriate lecture or assignment identifier (e.g., `lecture-1`, `assignment-2`, etc.).
+### Install Dependencies
+
+Run the following to install npm dependencies
+
+```bash
+npm install
+```
+
+### Run the Development Server
+
+```bash
+npm run dev
+```
 
 ---
-
-## Marks Distribution
-
-| Component                | Weight (%) |
-| ------------------------ | ---------- |
-| Attendance               | 20%        |
-| Assignment               | 10%        |
-| Project Proposal         | 5%         |
-| Project Checkpoint 1     | 15%        |
-| Project Checkpoint 2     | 15%        |
-| Final Project Submission | 20%        |
-| Lab Exam                 | 15%        |
-| **Total**                | **100%**   |
-
----
-
-## Topics Covered
-
-- HTML, CSS, Bootstrap, JavaScript, PHP, and Version Control
-- Laravel Basics: CSR vs SSR, Routing, View Engine
-- Middleware, Authentication & Authorization, Request Lifecycle
-- MySQL, ORM, Service Providers, DevOps & CI/CD Concepts
-- Docker & Containerization, Cloud Deployment
-- Application Monitoring & Security
-
----
-
-## Course Materials
